@@ -1,0 +1,260 @@
+body {
+  font-family: "arial";
+  font-size: 12pt;
+  line-height: 150%;
+  color: black;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color:#f0efef;
+  /*padding: 25px 5px 5px 5px; /* top right bottom left */
+}
+
+
+div {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 0px;
+    /*max-width: 90%;
+    min-width: 20%;*/
+}
+
+
+h1 { 
+    display: block;
+    color: #034f84;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+h4 {
+  font-family: "Helvetica"
+  text-align: center; 
+  line-height: 140%;
+  color: LightPink;
+  font-weight: normal
+}
+
+
+h6 { 
+    display: block;
+    color: #EA4335;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  font-family: "arial";
+}
+
+
+.column {
+    float: left;
+    padding: 20px;
+    background-color:#f0efef;
+
+}
+
+
+.left {
+ width: 30%;
+ /*padding-left: 30px;*/
+ line-height: 150%;
+  font-size: 12pt;
+ color: #585858;
+   font-family: "Helvetica"
+}
+
+
+.middle {
+  width: 60%;
+/*  padding-right: 20px;
+    padding-left: 60px;
+*/
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#one{
+  font-family: "Helvetica"
+  font-size: 11pt;
+  /*line-height: 175%;*/
+  font-weight: normal; 
+margin-top: -15px;  
+}
+
+#two{
+  font-family: "Helvetica"
+  font-size: 11pt;
+  /*line-height: 175%;*/
+  font-weight: normal; 
+margin-top: -10px;  
+}
+
+
+.contact {
+  font-family: "Helvetica"
+  font-weight: bold;
+  color: #C0C0C0;
+  text-align: left;
+  line-height: 35%;
+}
+
+
+.title, .author {
+  display: none;
+}
+
+
+.footer {
+  font-family: "Helvetica", serif;
+  font-size: 100%;
+  color: #ababab;
+  line-height: 140%;
+}
+
+
+hr.footer {
+  margin-top: 10%;
+}
+
+
+code, pre {
+  font-family: "Droid Sans Mono", monospace;
+  font-size: 10pt;
+}
+
+
+a:link {
+    color: #4285F4;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:visited {
+    color: #4285F4;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:hover {
+    color: #feb236;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color: #FBBC05;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+
+.pages {
+  width: 100%;
+  float: center;
+  margin: 0% 0 0 0;
+  padding: 0;
+  list-style: none;
+  /*background-color: #FFFFFF;*/
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+  font-size: 120%;
+  text-align: center; 
+  padding-top: 7px;
+  padding-bottom: 17px;
+  border-right: #ccc;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 70%;*/ 
+}
+
+
+img {
+/*    border-radius: 50%;
+*/    max-width: 80%;
+    height: auto;
+    width: auto\9; /* ie8 */
+/*    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);
+*/
+
+
+}
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+/* a paragraph proceeded by another paragraph will have a top margin */
+p + p {
+    margin-top: 0px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.button {
+  border: none;
+  color: white;
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+/*  margin: 4px 2px;
+*/  cursor: pointer;
+}
+
+.button1 {background-color: #034f84;} /* blue */
+.button2 {background-color: #f7786b;} /* orange */
+.button3 {background-color: #c94c4c;} /* red */
+.button4 {background-color: #5b9aa0;} /* green */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    
+    IMG.displayed {display:none} 
+
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .column {
+        width: 100%;
+        padding-left:0;
+
+    }
+  IMG.displayed {display:none} 
+
+}
+
+
+</style>
